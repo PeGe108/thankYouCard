@@ -4,7 +4,7 @@ $(document).ready(function(){
     
     $("#button").click(function anja(){
         $('#anja').addClass('animated rotateIn');
-        $('#anja').css('background-image',  'url(img//anja.jpg)');
+        $('#anja').css('background-image',  'url(img/anja.jpg)');
         setTimeout(anisah, 2000)
     })
     
