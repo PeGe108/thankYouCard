@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/***************
+My Code
+***************/
+
+/*DESKTOP CODE*/
+
+h1, h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 6em;
+    width: 50%;
+    background: linear-gradient(to right, yellow 0%, orange 25%, red 50%, pink 75%, purple 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.border {
+    border: 5px solid black;
+}
+
+.balloons {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 400px;
+    border: 3px solid blue;
+    background: linear-gradient(to right, darkblue, lightblue);
+    /*background-color: orangered;*/
+}
+
+.circles-parent {
+    text-align: center;
+}
+
+#luka, #anja, #anisah {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#button {
+    display: block;
+    margin: 0 auto;
+    padding: 2%;
+    font-size: 1.5em;
+    background-color: blue;
+    border: blue 2px solid;
+    color: ghostwhite;
+}
+
+.object {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    border: 3px solid black;
+    margin: 5%;
+    padding: 2.5%;
+}
+
+span {
+    color: blue;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+
+/* TABLET CODE*/
+
+@media screen and (max-width: 1024px) {
+    
+    h1, h2 {
+        font-size: 4em;
+        text-align: center;
+    }
+    
+}
+
+/* MOBILE CODE*/
+
+@media screen and (max-width: 768px) {
+    
+    .balloons {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    h1, h2 {
+        font-size: 4em;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
