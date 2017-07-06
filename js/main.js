@@ -4,19 +4,19 @@ $(document).ready(function(){
     
     $("#button").click(function anja(){
         $('#anja').addClass('animated rotateIn');
-        $('#anja').css('background-image',  'url(../img/anja.jpg)');
+        $('#anja').css('background-image',  'url(img//anja.jpg)');
         setTimeout(anisah, 2000)
     })
     
     function anisah(){
         $('#anisah').addClass('animated rotateIn');
-        $('#anisah').css('background-image', 'url(../img/Anisah.jpg)');
+        $('#anisah').css('background-image', 'url(img/Anisah.jpg)');
         setTimeout(luka, 2000)
     }
     
     function luka(){
         $('#luka').addClass('animated rotateIn');
-        $('#luka').css('background-image', 'url(../img/Luka.jpg)');
+        $('#luka').css('background-image', 'url(img/Luka.jpg)');
         setTimeout(title1, 2000)
     }
     
